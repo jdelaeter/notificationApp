@@ -1,0 +1,125 @@
+.example-header-image {
+    background-size: cover;
+}
+
+.redDot {
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.cardContent {
+    display: flex;
+    gap: 15px;
+}
+
+/*typo*/
+
+.header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bodyBold {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.headerStyle {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.body {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--darkgreyblue-color)
+}
+
+.privateMessage {
+    border: 1px var(--verylightgreyblue-color) solid;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.markAllRead:hover {
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.privateMessage:hover {
+    border: 1px var(--verylightgreyblue-color) solid;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: var(--lightgreyblue-color);
+    cursor: pointer;
+}
+
+.numberNotif {
+    background: #0A327B;
+    border-radius: 6px;
+    width: 32px;
+    height: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.example-card {
+    width: 840px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.notification {
+    margin-bottom: 24px;
+    box-shadow: none;
+}
+
+.headerStyle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blue {
+    color: var(--blue-color)
+}
+
+.leftHeader {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.rightHeader {
+    color: var(--darkgreyblue-color)
+}
+
+.privateMessage {
+    margin-top: 13px;
+}
+
+.imageCommente {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: auto;
+}

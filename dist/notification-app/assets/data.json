@@ -1,0 +1,79 @@
+[
+    {
+        "Nom": "Webber",
+        "Prenom": "Mark",
+        "text": "reacted to your recent post",
+        "boldText": "My first tournament today !",
+        "read": false,
+        "msgDate": "1m",
+        "privateMessage": "",
+        "groupName": "",
+        "image": "../assets/img/Oval-1.png"
+    },
+    {
+        "Nom": "Gray",
+        "Prenom": "Angela",
+        "text": "followed you",
+        "boldText": "",
+        "read": false,
+        "msgDate": "5m",
+        "privateMessage": "",
+        "groupName": "",
+        "image": "../assets/img/Oval-1.png"
+    },
+    {
+        "Nom": "Thompson",
+        "Prenom": "Jacob",
+        "text": "had joined your group",
+        "boldText": "",
+        "read": false,
+        "msgDate": "1 day",
+        "privateMessage": "",
+        "groupName": "Chess Club",
+        "image": "../assets/img/Oval-1.png"
+    },
+    {
+        "Nom": "Hasanuddin",
+        "Prenom": "Ricky",
+        "text": "sent you a private message",
+        "boldText": "",
+        "read": true,
+        "msgDate": "5 day",
+        "privateMessage": "hello, my name is raton.Thx to join the chess club",
+        "groupName": "",
+        "image": "../assets/img/Oval-2.png"
+    },
+    {
+        "Nom": "Smith",
+        "Prenom": "kimberly",
+        "text": "commented on your picture",
+        "boldText": "",
+        "read": true,
+        "msgDate": "1 week",
+        "privateMessage": "hello, my name is raton.Thx to join the chess club",
+        "groupName": "",
+        "image": "../assets/img/Oval-1.png"
+    },
+    {
+        "Nom": "Peterson",
+        "Prenom": "Nathan",
+        "text": "reacted to your recent post",
+        "boldText": "5 end-game strategies to increase your win rate",
+        "read": true,
+        "msgDate": "2 weeks",
+        "privateMessage": "",
+        "groupName": "",
+        "image": "../assets/img/Oval-1.png"
+    },
+    {
+        "Nom": "Kim",
+        "Prenom": "Anna",
+        "text": "left the group",
+        "boldText": "",
+        "read": true,
+        "msgDate": "2 weeks",
+        "privateMessage": "",
+        "groupName": "Chess club",
+        "image": "../assets/img/Oval-1.png"
+    }
+]

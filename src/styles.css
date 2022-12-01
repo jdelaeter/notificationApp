@@ -89,7 +89,7 @@ h6 {
 }
 
 body {
-  background-color: #DDE7EE;
+  background-color: var(--snow-color);
 }
 
 

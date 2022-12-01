@@ -12,7 +12,7 @@
 
   <mat-card-content>
     <mat-card class="notification" *ngFor="let notification of notifications"
-      [ngStyle]="{'background-color': (notification?.read === true) ? 'var(--white-color)' : '#DDE7EE'}">
+      [ngStyle]="{'background-color': (notification?.read === true) ? 'var(--white-color)' : 'var(--snow-color)'}">
       <mat-card-content class="cardContent">
         <div mat-card-avatar class="example-header-image"><img [src]="notification?.image" /></div>
         <div><span class="bodyBold">{{notification.nom}} {{notification.prenom}} </span> <span

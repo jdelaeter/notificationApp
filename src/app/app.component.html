@@ -14,18 +14,21 @@
     <mat-card class="notification" *ngFor="let notification of notifications"
       [ngStyle]="{'background-color': (notification?.read === true) ? 'var(--white-color)' : 'var(--snow-color)'}">
       <mat-card-content class="cardContent">
-        <div class="example-header-image">
-          <img class="imgStyle" [src]="notification?.image" />
+        <div style="display: flex;">
+          <div mat-card-avatar class="example-header-image"><img [src]="notification?.image" /></div>
+          <div class="rightNotif">
+            <span class="bodyBold">{{notification.prenom}} {{notification.nom}} </span> <span
+              class="body">{{notification.text}}</span> <span class="bodyBold"> {{notification.boldText}}</span><span
+              class="bodyBold blue"> {{notification?.groupName}}</span>
+            <div class="redDot" *ngIf="!notification?.read"></div>
+            <div class="body"> {{notification.msgDate}}</div>
+          </div>
+          <div class="imageCommente" *ngIf="notification?.imageCommente"><img [src]="notification?.imageCommente" />
+
+          </div>
         </div>
-        <div><span class="bodyBold">{{notification.prenom}} {{notification.nom}} </span> <span
-            class="body">{{notification.text}}</span> <span class="bodyBold"> {{notification.boldText}}</span><span
-            class="bodyBold blue"> {{notification?.groupName}}</span>
-          <div class="redDot" *ngIf="!notification?.read"></div>
-          <div class="body"> {{notification.msgDate}}</div>
-          <div class="body privateMessage" *ngIf="notification?.privateMessage">{{notification.privateMessage}}</div>
-        </div>
-        <div class="imageCommente" *ngIf="notification?.imageCommente"><img [src]="notification?.imageCommente" />
-        </div>
+        <div class="body privateMessage" *ngIf="notification?.privateMessage">{{notification.privateMessage}}</div>
+
 
       </mat-card-content>
     </mat-card>

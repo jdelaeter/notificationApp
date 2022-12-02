@@ -1,6 +1,5 @@
 .example-header-image {
     background-size: cover;
-    min-width: 45px;
 }
 
 .redDot {
@@ -15,14 +14,10 @@
 .imgStyle {
     width: 45px;
     height: 45px;
-    position: relative;
-    top: 0
 }
 
-.cardContent {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.rightNotif {
+    margin-left: 20px;
 }
 
 .header {
@@ -58,6 +53,7 @@
     border: 1px var(--verylightgreyblue-color) solid;
     border-radius: 5px;
     padding: 8px;
+    margin-left: 58px;
 }
 
 .markAllRead:hover {

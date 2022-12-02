@@ -13,6 +13,7 @@
 
 .cardContent {
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -80,23 +81,21 @@
 
 .example-card {
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    min-height: 804px;
-    max-width: 724px;
-    min-width: 375px;
+    margin-top: 63px;
+    width: 724px;
+    padding: 30px;
 }
 
 .notification {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     box-shadow: none;
+    min-height: 80px;
 }
 
 .headerStyle {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .blue {

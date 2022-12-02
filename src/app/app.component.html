@@ -15,12 +15,11 @@
       [ngStyle]="{'background-color': (notification?.read === true) ? 'var(--white-color)' : 'var(--snow-color)'}">
       <mat-card-content class="cardContent">
         <div mat-card-avatar class="example-header-image"><img [src]="notification?.image" /></div>
-        <div><span class="bodyBold">{{notification.nom}} {{notification.prenom}} </span> <span
+        <div><span class="bodyBold">{{notification.prenom}} {{notification.nom}} </span> <span
             class="body">{{notification.text}}</span> <span class="bodyBold"> {{notification.boldText}}</span><span
             class="bodyBold blue"> {{notification?.groupName}}</span>
           <div class="redDot" *ngIf="!notification?.read"></div>
-          <br>
-          <span class="body">{{notification.msgDate}}</span>
+          <div class="body"> {{notification.msgDate}}</div>
           <div class="body privateMessage" *ngIf="notification?.privateMessage">{{notification.privateMessage}}</div>
         </div>
         <div class="imageCommente" *ngIf="notification?.imageCommente"><img [src]="notification?.imageCommente" />

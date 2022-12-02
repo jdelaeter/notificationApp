@@ -66,7 +66,7 @@ export class AppComponent {
     },
     {
       "nom": "Smith",
-      "prenom": "kimberly",
+      "prenom": "Kimberly",
       "text": "commented on your picture",
       "boldText": "",
       "read": true,

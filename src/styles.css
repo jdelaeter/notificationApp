@@ -8,7 +8,6 @@ body {
 
 body {
   margin: 0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /*
@@ -103,4 +102,8 @@ body {
   --verylightgreyblue-color: #DDE7EE;
   --snow-color: #F7FAFD;
   --white-color: #FFFFFF;
+}
+
+* {
+  font-family: Plus Jakarta Sans, sans-serif !important;
 }

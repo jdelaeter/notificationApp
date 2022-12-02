@@ -1,5 +1,6 @@
 .example-header-image {
     background-size: cover;
+    min-width: 45px;
 }
 
 .redDot {
@@ -11,13 +12,18 @@
     margin-left: 8px;
 }
 
+.imgStyle {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 0
+}
+
 .cardContent {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
-/*typo*/
 
 .header {
     font-style: normal;
@@ -82,7 +88,7 @@
 .example-card {
     margin: 0 auto;
     margin-top: 63px;
-    width: 724px;
+    width: 728px;
     padding: 30px;
 }
 
